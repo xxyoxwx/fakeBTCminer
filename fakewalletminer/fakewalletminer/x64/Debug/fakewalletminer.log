@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\xxyox\Desktop\c++randomshit\fakewalletminer\fakewalletminer\main.cpp(113,18): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  fakewalletminer.vcxproj -> C:\Users\xxyox\Desktop\c++randomshit\fakewalletminer\x64\Debug\fakewalletminer.exe

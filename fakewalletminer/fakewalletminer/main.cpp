@@ -58,7 +58,7 @@ bool login() {
 bool isValidBTCAddress(string address) {
     if (address.length() > 25 && address.length() <= 35)
     {
-        //TODO Add validation logic here
+        //TODO 5kc logic here
         return true;
     }
     else return false;
@@ -104,7 +104,7 @@ void displayRandomHash() {
 
 void runVerificationProcess() {
     string address = requestBTCAddress();
-    // Add verification logic here
+    // Add verify
     bool isVerified = true;
     displayVerificationMessage(address);
 }
@@ -119,8 +119,8 @@ int main() {
     bool isVerified = false;
     int redTimer = 0;
     int greenTimer = 0;
-    const int RED_TIME = 1000; // 10 seconds
-    const int GREEN_TIME = 1000; // 1 second
+    const int RED_TIME = 1000;
+    const int GREEN_TIME = 1000;
     while (true) {
         int randomNumber = int_dist(gen) * 999 + 1;
 
